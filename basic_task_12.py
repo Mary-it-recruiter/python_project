@@ -14,3 +14,4 @@ for i in range(number_x):
             print(i, j)
 print(f"Петя загадал {i} и {j}")
 
+

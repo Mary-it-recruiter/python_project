@@ -14,3 +14,4 @@ for coin in range(number_of_coins):
 print(f"Нужно перевернуть: "
       f"{eagle if eagle <= number_of_coins / 2 else number_of_coins - eagle} "
       f"монет.")
+
