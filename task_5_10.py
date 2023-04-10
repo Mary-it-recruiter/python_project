@@ -27,3 +27,4 @@ for line in yo_p.stdout:
     result = chardet.detect(line)
     line = line.decode(result['encoding']).encode('utf-8')
     print(line.decode('utf-8'))
+
